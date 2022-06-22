@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  text-align: left;
+  font-family:cursive;
+  font-weight: 500;
 }
 
 .App-logo {
@@ -26,6 +28,51 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.dataDiv{
+  width: 25%;
+  height: 20%;
+  border: 1px solid #000;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #61dafb;
+  padding: 10px;
+}
+
+.dataDiv button{
+  background-color: #df7131;
+  border: none;
+  padding: 7px;
+  margin-left:5px;
+  font-weight: 700;
+  width: 20%;
+}
+
+.formDiv{
+  width: 25%;
+  height: 20%;
+  background-color: #df7131;
+  border-radius: 10px;
+  padding: 10px;
+}
+.formDiv input{
+  width: 80%;
+  height: 10px;
+  margin: 4px 0;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+}
+
+.formDiv button{
+  width: 85%;
+  background-color: black;
+  color:#fff;
+  margin: 4px 0;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
 }
 
 @keyframes App-logo-spin {
